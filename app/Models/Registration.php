@@ -14,10 +14,10 @@ class Registration extends Model
     ];
     public function students()
     {
-        return $this->belongsTo(Student::class)
+        return $this->belongsTo(Student::class);
     }
     public function lessons()
     {
-        return $this->belongsTo(Lesson::class)
+        return $this->belongsTo(Lesson::class);
     }
 }
